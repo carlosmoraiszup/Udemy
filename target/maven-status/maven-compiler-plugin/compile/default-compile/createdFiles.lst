@@ -2,6 +2,9 @@ com/cursomc/services/CategoriaService.class
 com/cursomc/domain/Produto.class
 com/cursomc/repositories/ProdutoRepository.class
 com/cursomc/repositories/CategoriaRepository.class
+com/cursomc/resoucers/exception/StandardError.class
 com/cursomc/CursomcApplication.class
+com/cursomc/resoucers/exception/ResourceExceptionHandler.class
+com/cursomc/services/exception/ObjectNotFoundException.class
 com/cursomc/domain/Categoria.class
 com/cursomc/resoucers/CategoriaResource.class
