@@ -1,3 +1,5 @@
+com/cursomc/services/CategoriaService.class
 com/cursomc/domain/Categoria.class
+com/cursomc/repositories/CategoriaRepository.class
 com/cursomc/resoucers/CategoriaResource.class
 com/cursomc/CursomcApplication.class
