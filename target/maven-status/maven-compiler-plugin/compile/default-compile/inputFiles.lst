@@ -1,7 +1,12 @@
+/home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/domain/Estado.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/resoucers/CategoriaResource.java
+/home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/services/exception/ObjectNotFoundException.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/domain/Categoria.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/repositories/ProdutoRepository.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/repositories/CategoriaRepository.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/CursomcApplication.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/domain/Produto.java
+/home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/domain/Cidade.java
+/home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/resoucers/exception/StandardError.java
+/home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/resoucers/exception/ResourceExceptionHandler.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/services/CategoriaService.java

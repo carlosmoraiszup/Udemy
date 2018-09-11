@@ -1,10 +1,14 @@
 com/cursomc/services/CategoriaService.class
-com/cursomc/domain/Produto.class
 com/cursomc/repositories/ProdutoRepository.class
-com/cursomc/repositories/CategoriaRepository.class
-com/cursomc/resoucers/exception/StandardError.class
 com/cursomc/CursomcApplication.class
 com/cursomc/resoucers/exception/ResourceExceptionHandler.class
+com/cursomc/repositories/CidadeRepository.class
+com/cursomc/domain/Estado.class
+com/cursomc/domain/Produto.class
+com/cursomc/repositories/CategoriaRepository.class
+com/cursomc/resoucers/exception/StandardError.class
+com/cursomc/repositories/EstadoRepository.class
 com/cursomc/services/exception/ObjectNotFoundException.class
 com/cursomc/domain/Categoria.class
+com/cursomc/domain/Cidade.class
 com/cursomc/resoucers/CategoriaResource.class
