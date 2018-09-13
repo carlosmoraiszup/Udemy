@@ -1,6 +1,7 @@
 com/cursomc/domain/enums/EstadoPagamento.class
 com/cursomc/domain/Pedido.class
 com/cursomc/resoucers/exception/ResourceExceptionHandler.class
+com/cursomc/domain/ItemPedido.class
 com/cursomc/domain/Endereco.class
 com/cursomc/domain/enums/TipoCliente.class
 com/cursomc/repositories/CategoriaRepository.class
@@ -16,6 +17,7 @@ com/cursomc/repositories/ClienteRepository.class
 com/cursomc/services/CategoriaService.class
 com/cursomc/repositories/PagamentoRepository.class
 com/cursomc/repositories/ProdutoRepository.class
+com/cursomc/domain/ItemPedidoPK.class
 com/cursomc/CursomcApplication.class
 com/cursomc/repositories/CidadeRepository.class
 com/cursomc/domain/Cliente.class
@@ -24,5 +26,6 @@ com/cursomc/repositories/PedidoRepository.class
 com/cursomc/domain/Produto.class
 com/cursomc/repositories/EnderecoRepository.class
 com/cursomc/services/exception/ObjectNotFoundException.class
+com/cursomc/repositories/ItemPedidoRepository.class
 com/cursomc/domain/Pagamento.class
 com/cursomc/resoucers/CategoriaResource.class

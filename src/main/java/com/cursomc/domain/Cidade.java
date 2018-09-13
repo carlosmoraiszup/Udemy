@@ -57,13 +57,11 @@ public class Cidade implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Cidade cidade = (Cidade) o;
-        return Objects.equals(id, cidade.id) &&
-                Objects.equals(nome, cidade.nome) &&
-                Objects.equals(estado, cidade.estado);
+        return Objects.equals(id, cidade.id);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nome, estado);
+        return Objects.hash(id);
     }
 }

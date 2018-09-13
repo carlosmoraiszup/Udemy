@@ -1,6 +1,7 @@
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/domain/enums/TipoCliente.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/resoucers/CategoriaResource.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/repositories/PedidoRepository.java
+/home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/domain/ItemPedido.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/repositories/CidadeRepository.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/resoucers/ClienteResource.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/services/CategoriaService.java
@@ -25,4 +26,5 @@
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/domain/PagamentoComCartao.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/repositories/ProdutoRepository.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/CursomcApplication.java
+/home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/domain/ItemPedidoPK.java
 /home/carloscesar/workspaceIntelliJ/UdemySpringBoot/src/main/java/com/cursomc/resoucers/exception/ResourceExceptionHandler.java

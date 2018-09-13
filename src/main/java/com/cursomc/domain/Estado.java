@@ -58,13 +58,11 @@ public class Estado implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Estado estado = (Estado) o;
-        return Objects.equals(id, estado.id) &&
-                Objects.equals(nome, estado.nome) &&
-                Objects.equals(cidades, estado.cidades);
+        return Objects.equals(id, estado.id);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nome, cidades);
+        return Objects.hash(id);
     }
 }

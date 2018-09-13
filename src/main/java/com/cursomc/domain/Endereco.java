@@ -111,18 +111,11 @@ public class Endereco implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Endereco endereco = (Endereco) o;
-        return Objects.equals(id, endereco.id) &&
-                Objects.equals(logradouro, endereco.logradouro) &&
-                Objects.equals(numero, endereco.numero) &&
-                Objects.equals(complemento, endereco.complemento) &&
-                Objects.equals(bairro, endereco.bairro) &&
-                Objects.equals(cep, endereco.cep) &&
-                Objects.equals(cidade, endereco.cidade) &&
-                Objects.equals(cliente, endereco.cliente);
+        return Objects.equals(id, endereco.id);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, logradouro, numero, complemento, bairro, cep, cidade, cliente);
+        return Objects.hash(id);
     }
 }

@@ -3,7 +3,9 @@ package com.cursomc.domain;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 @Entity
 public class Pedido
@@ -27,6 +29,10 @@ public class Pedido
     @JoinColumn(name = "endereco_id")
     private Endereco enderecoDeEntrega;
 
+    @OneToMany(mappedBy = "id.pedido")
+    private Set<ItemPedido> itens = new HashSet<>();
+
+
     public Pedido() {
     }
 
@@ -36,6 +42,14 @@ public class Pedido
         this.instante = instante;
         this.cliente = cliente;
         this.enderecoDeEntrega = enderecoDeEntrega;
+    }
+
+    public Set<ItemPedido> getItens() {
+        return itens;
+    }
+
+    public void setItens(Set<ItemPedido> itens) {
+        this.itens = itens;
     }
 
     public Integer getId() {
@@ -83,15 +97,11 @@ public class Pedido
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Pedido pedido = (Pedido) o;
-        return Objects.equals(id, pedido.id) &&
-                Objects.equals(instante, pedido.instante) &&
-                Objects.equals(pagamento, pedido.pagamento) &&
-                Objects.equals(cliente, pedido.cliente) &&
-                Objects.equals(enderecoDeEntrega, pedido.enderecoDeEntrega);
+        return Objects.equals(id, pedido.id);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, instante, pagamento, cliente, enderecoDeEntrega);
+        return Objects.hash(id);
     }
 }
