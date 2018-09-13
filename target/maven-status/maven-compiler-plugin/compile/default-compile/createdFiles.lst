@@ -1,6 +1,7 @@
 com/cursomc/domain/enums/EstadoPagamento.class
 com/cursomc/domain/Pedido.class
 com/cursomc/resoucers/exception/ResourceExceptionHandler.class
+com/cursomc/services/PedidoService.class
 com/cursomc/domain/ItemPedido.class
 com/cursomc/domain/Endereco.class
 com/cursomc/domain/enums/TipoCliente.class
@@ -21,6 +22,7 @@ com/cursomc/domain/ItemPedidoPK.class
 com/cursomc/CursomcApplication.class
 com/cursomc/repositories/CidadeRepository.class
 com/cursomc/domain/Cliente.class
+com/cursomc/resoucers/PedidoResource.class
 com/cursomc/domain/Estado.class
 com/cursomc/repositories/PedidoRepository.class
 com/cursomc/domain/Produto.class

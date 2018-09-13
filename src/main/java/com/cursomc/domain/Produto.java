@@ -1,6 +1,7 @@
 package com.cursomc.domain;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -23,6 +24,7 @@ public class Produto implements Serializable {
     )
     private List<Categoria> categorias = new ArrayList<>();
 
+    @JsonIgnore
     @OneToMany(mappedBy = "id.produto")
     private Set<ItemPedido> itens = new HashSet<>();
 
@@ -35,7 +37,8 @@ public class Produto implements Serializable {
         this.preco = preco;
     }
 
-    public List<Pedido> pedidos(){
+    @JsonIgnore
+    public List<Pedido> getpedidos(){
         List<Pedido> lista = new ArrayList<>();
         for (ItemPedido x : itens){
             lista.add(x.getPedido());
