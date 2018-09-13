@@ -45,8 +45,6 @@ public class ItemPedido implements Serializable {
         this.desconto = desconto;
     }
 
-
-
     public void setQuantidade(Integer quantidade) {
         this.quantidade = quantidade;
     }
