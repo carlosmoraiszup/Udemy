@@ -17,6 +17,7 @@ com/cursomc/resoucers/ClienteResource.class
 com/cursomc/repositories/ClienteRepository.class
 com/cursomc/services/CategoriaService.class
 com/cursomc/repositories/PagamentoRepository.class
+com/cursomc/services/exception/DataIntegrityException.class
 com/cursomc/repositories/ProdutoRepository.class
 com/cursomc/domain/ItemPedidoPK.class
 com/cursomc/CursomcApplication.class
