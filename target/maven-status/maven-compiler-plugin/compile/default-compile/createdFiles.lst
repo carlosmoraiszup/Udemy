@@ -28,6 +28,7 @@ com/cursomc/domain/Estado.class
 com/cursomc/repositories/PedidoRepository.class
 com/cursomc/domain/Produto.class
 com/cursomc/repositories/EnderecoRepository.class
+com/cursomc/dto/CategoriaDTO.class
 com/cursomc/services/exception/ObjectNotFoundException.class
 com/cursomc/repositories/ItemPedidoRepository.class
 com/cursomc/domain/Pagamento.class
