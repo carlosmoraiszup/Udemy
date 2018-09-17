@@ -10,15 +10,18 @@
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/repositories/PagamentoRepository.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/domain/Pagamento.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/domain/Endereco.java
+/home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/dto/CategoriaDTO.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/repositories/ProdutoRepository.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/services/PedidoService.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/domain/Cliente.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/resoucers/PedidoResource.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/domain/ItemPedido.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/domain/enums/EstadoPagamento.java
+/home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/services/exception/DataIntegrityException.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/domain/Categoria.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/resoucers/CategoriaResource.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/domain/PagamentoComBoleto.java
+/home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/resoucers/exception/ValidationError.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/repositories/CidadeRepository.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/domain/PagamentoComCartao.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/repositories/PedidoRepository.java
@@ -29,5 +32,6 @@
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/domain/ItemPedidoPK.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/domain/Cidade.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/repositories/EnderecoRepository.java
+/home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/resoucers/exception/FieldMessage.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/services/exception/ObjectNotFoundException.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/services/ClienteService.java
