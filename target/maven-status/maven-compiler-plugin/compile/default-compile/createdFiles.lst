@@ -1,3 +1,4 @@
+com/cursomc/dto/ClienteDTO.class
 com/cursomc/domain/enums/EstadoPagamento.class
 com/cursomc/domain/Pedido.class
 com/cursomc/resoucers/exception/ResourceExceptionHandler.class

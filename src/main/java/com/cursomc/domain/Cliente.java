@@ -13,9 +13,11 @@ public class Cliente implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
+
     private String nome;
     private String email;
-    private String CpfOuCnpj;
+    private String cpfOuCnpj;
     private Integer tipo;
 
     @OneToMany(mappedBy = "cliente")
@@ -36,17 +38,10 @@ public class Cliente implements Serializable {
         this.id = id;
         this.nome = nome;
         this.email = email;
-        this.CpfOuCnpj = cpfOuCnpj;
-        this.tipo = tipo.getCod();
+        this.cpfOuCnpj = cpfOuCnpj;
+        this.tipo = (tipo==null) ? null : tipo.getCod();
     }
 
-    public List<Pedido> getPedidos() {
-        return pedidos;
-    }
-
-    public void setPedidos(List<Pedido> pedidos) {
-        this.pedidos = pedidos;
-    }
 
     public Integer getId() {
         return id;
@@ -64,6 +59,14 @@ public class Cliente implements Serializable {
         this.nome = nome;
     }
 
+    public String getCpfOuCnpj() {
+        return cpfOuCnpj;
+    }
+
+    public void setCpfOuCnpj(String cpfOuCnpj) {
+        this.cpfOuCnpj = cpfOuCnpj;
+    }
+
     public String getEmail() {
         return email;
     }
@@ -72,12 +75,13 @@ public class Cliente implements Serializable {
         this.email = email;
     }
 
-    public String getCpfOuCnpj() {
-        return CpfOuCnpj;
+
+    public List<Pedido> getPedidos() {
+        return pedidos;
     }
 
-    public void setCpfOuCnpj(String cpfOuCnpj) {
-        CpfOuCnpj = cpfOuCnpj;
+    public void setPedidos(List<Pedido> pedidos) {
+        this.pedidos = pedidos;
     }
 
     public TipoCliente getTipo() {

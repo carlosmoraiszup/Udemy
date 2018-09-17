@@ -10,6 +10,7 @@
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/repositories/PagamentoRepository.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/domain/Pagamento.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/domain/Endereco.java
+/home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/dto/ClienteDTO.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/dto/CategoriaDTO.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/repositories/ProdutoRepository.java
 /home/carloscesar/workspaceIntelliJ/Udemy/src/main/java/com/cursomc/services/PedidoService.java

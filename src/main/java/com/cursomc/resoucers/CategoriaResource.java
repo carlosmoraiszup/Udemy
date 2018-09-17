@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping(value = "/categoriasa")
+@RequestMapping(value = "/categorias")
 public class CategoriaResource {
 
     @Autowired
